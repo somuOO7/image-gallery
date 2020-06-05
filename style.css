@@ -1,0 +1,29 @@
+body {
+	background-color: #666161;
+}
+
+.container-fluid {
+	padding: 2% 10% 0;
+	height: 100vh;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	margin: 5% 0;
+	transition: 0.5s ease-in-out;
+}
+
+.inactive {
+	opacity: 0.3;
+}
+
+.active {
+	opacity: 1;
+	box-shadow: 5px 5px 15px #42e6a4, -5px -5px 15px #42e6a4,
+		-5px 5px 15px #42e6a4, 5px -5px 15px #42e6a4;
+}
+
+.img-box {
+	height: 100%;
+}
